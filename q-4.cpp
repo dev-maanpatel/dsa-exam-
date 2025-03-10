@@ -7,7 +7,7 @@ using namespace std;
 using namespace std;
 
 int main() {
-    int row, cols, rowchoise = 0, colcho = 0, sum = 0;
+    int row, cols, rowchoise = 0, colchoise = 0, sum = 0;
 
     cout << "enter the row of an array : ";
     cin >> row;
@@ -34,12 +34,12 @@ int main() {
 
     sum = 0;
     cout << "enter the chosen cols :";
-    cin >> colcho;
+    cin >> colchoise;
 
-    cout << "Element of col " << colcho << " ";
+    cout << "Element of col " << colchoise << " ";
     for (int i = 0; i < row; i++) {
-        cout << arr[i][colcho] << " ";
-        sum += arr[i][colcho];
+        cout << arr[i][colchoise] << " ";
+        sum += arr[i][colchoise];
     }
     cout << endl << "Sum is : " << sum << " " << endl;
 
